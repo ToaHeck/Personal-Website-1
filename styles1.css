@@ -1,0 +1,170 @@
+html {
+    background-color: rgb(43, 51, 55);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a,a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.me img{
+    padding: 20px 20px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 60px #737373)
+}
+.name1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.name1 h1{
+    color:#fabc2c;
+    font-size: 5em;
+    margin:0px;
+}
+.name1 h3{
+    margin-top:0;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-bar{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fabc2c;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav-item{
+    font-size: larger;
+    padding: 1em 3em;
+}
+
+.nav-item a:hover{
+    filter: drop-shadow(0px 0px 5px rgb(30, 30, 30));
+
+}
+#high-nav a:hover{
+    filter: drop-shadow(0px 0px  5px rgb(255, 255, 255));
+
+}
+
+.ig {
+    color:#fabc2c;
+}
+
+.about {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+}
+
+#high-nav a{
+    color:rgb(43, 51, 55);
+}
+
+
+.footer-item a img{
+    height: 40px;
+    mix-blend-mode: screen;
+    padding: 0px;
+    margin: 0px 50px;
+}
+footer ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.footer-links{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-desc{
+    margin
+}
+
+table{
+    width: 100%;
+    border: 1px solid;
+}
+
+th, td{
+    border:1px solid;
+    padding:20px;
+}
+
+td > img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.art-piece{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.journey-vid, .trench-run > p{
+    /*border:solid;*/
+    max-width: 800px;
+    margin: auto;
+    margin-bottom:70px;
+
+}
+
+.art-title{
+    color:rgb(255, 187, 0);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.artwork-title{
+    text-align: center;
+    font-size: 24px;
+}
+
+.image-item{
+    width: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form > label{
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+form > input{
+    margin: 10px;
+    height: 40px;
+    width: 400px;
+    font-size: 24px;
+}
