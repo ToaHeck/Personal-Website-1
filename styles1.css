@@ -133,12 +133,16 @@ footer ul {
     flex-wrap: wrap;
 }
 .project-desc{
-    margin
+    margin: 0;
 }
 
 table{
     width: 100%;
     border: 1px solid;
+}
+
+th{
+    font-size: 30px;
 }
 
 th, td{

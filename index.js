@@ -18,7 +18,7 @@ function toggleMode(){
 
 }
 
-let GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
+var GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
 console.log(GetTheme);
 
 if(GetTheme === "DARK"){
