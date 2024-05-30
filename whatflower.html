@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To'a Heck's Portfolio Website</title>
+        <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="resume.html" class="nav__link">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                iOS App: <strong>AI Flower Dectection</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro--portfolio">An app to specify flower species.</p>
+            <img src="img/whatFlower.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-background">
+            <div class="portfolio-item-individual-horizontal">
+                <div class="portfolio-item-text-horizontal">
+                    <p>
+                        This flower identification app is a simple iOS application, developed in Swift 5, 
+                        that makes identifying flower species straightforward and engaging. Leveraging the power of
+                         CoreML and the Oxford102 flower model, the app uses the device's camera to capture images 
+                         of flowers and determine their species. While the model includes only 102 flower species, 
+                         the app provides the closest match, making it a useful tool for flower enthusiasts and 
+                         casual users alike. To enhance the user experience, the app also integrates with Wikipedia,
+                          fetching detailed information about the identified flower species. Installation is 
+                          hassle-free, requiring Xcode 12 or higher, Swift 5, and iOS 16.0+.
+                      </p>
+                      <p>
+                        This app leverages various APIs to enhance its functionality. Specifically, it uses the 
+                        CoreML API to process images and identify flower species based on the Oxford102 flower model.
+                         Additionally, it makes use of API calls to Wikipedia to pull up relevant information about 
+                         the identified flowers, providing users with a comprehensive understanding of each species.
+                          By integrating these APIs, the flower identification app offers a seamless and informative 
+                          experience for users. The GitHub repository for this project can be found
+                           <a href="https://github.com/ToaHeck/AI-Flower-Detector-iOS13" target="_blank">here</a>.
+                      </p>
+                </div>
+            
+                <div class="portfolio-item-image-horizontal">
+                    <img src="img/whatFlowerDemo.gif" alt="">
+                </div>
+            </div>
+            </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:toaheck1@gmail.com" class="footer__link">toaheck1@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/toa-heck/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ToaHeck" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/toaheck" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/b0n5ai" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
